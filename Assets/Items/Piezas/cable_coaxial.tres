@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/cable_coaxial.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"cable_coaxial"
+nombre = "Cable coaxial"
+nombre_corto = "Coax."
+necesaria = false
+funcion = "Lleva señal de televisión por un solo conductor; una red necesita 4 pares de cobre trenzados."
+pista = "Busca un cable con la marca «UTP» y «Cat5e», en el depósito de la escuela."
+capsula = ""
+donde = "Tienda"
+paso = &""
+color = Color(0.25, 0.25, 0.25, 1)
+icono = ExtResource("2_icono")

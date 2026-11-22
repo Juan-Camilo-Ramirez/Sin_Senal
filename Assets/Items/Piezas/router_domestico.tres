@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/router_domestico.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"router_domestico"
+nombre = "Router doméstico barato"
+nombre_corto = "Router"
+necesaria = false
+funcion = "El router de la escuela ya existe y funciona; lo que falló es otra cosa."
+pista = "Revisa la lista de síntomas: el router no es lo que hay que cambiar."
+capsula = ""
+donde = "Tienda"
+paso = &""
+color = Color(0.6, 0.3, 0.7, 1)
+icono = ExtResource("2_icono")

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <!-- Ícono provisional (Godot lo reemplaza o se cambia por el arte propio). -->
+  <rect width="128" height="128" rx="16" fill="#1d2b3a"/>
+  <path d="M24 56 a56 56 0 0 1 80 0" fill="none" stroke="#e8e8e8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M40 72 a34 34 0 0 1 48 0" fill="none" stroke="#e8e8e8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="64" cy="92" r="8" fill="#e8e8e8"/>
+  <line x1="28" y1="104" x2="100" y2="28" stroke="#e24b4b" stroke-width="10" stroke-linecap="round"/>
+</svg>

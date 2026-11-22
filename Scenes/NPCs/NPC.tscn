@@ -1,0 +1,42 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://Scripts/NPCs/npc.gd" id="1_npc"]
+[ext_resource type="Texture2D" path="res://Assets/Characters/personajes.png" id="2_hoja"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cuerpo"]
+size = Vector2(12, 10)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_zona"]
+size = Vector2(26, 26)
+
+[node name="NPC" type="StaticBody2D"]
+z_index = 2
+script = ExtResource("1_npc")
+
+[node name="Forma" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_cuerpo")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+position = Vector2(0, -6)
+texture = ExtResource("2_hoja")
+region_enabled = true
+region_rect = Rect2(18, 0, 18, 26)
+
+[node name="Nombre" type="Label" parent="."]
+offset_left = -32.0
+offset_top = -30.0
+offset_right = 32.0
+offset_bottom = -20.0
+mouse_filter = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_font_sizes/font_size = 6
+text = "NPC"
+horizontal_alignment = 1
+
+[node name="ZonaInteraccion" type="Area2D" parent="."]
+monitoring = false
+
+[node name="Forma" type="CollisionShape2D" parent="ZonaInteraccion"]
+shape = SubResource("RectangleShape2D_zona")

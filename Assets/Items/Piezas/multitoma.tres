@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/multitoma.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"multitoma"
+nombre = "Multitoma"
+nombre_corto = "Multit."
+necesaria = false
+funcion = "Reparte la corriente, pero no protege contra sobretensión."
+pista = "Pide a Don Jorge el regulador de voltaje."
+capsula = ""
+donde = "Taller de electricidad"
+paso = &""
+color = Color(0.95, 0.95, 0.95, 1)
+icono = ExtResource("2_icono")

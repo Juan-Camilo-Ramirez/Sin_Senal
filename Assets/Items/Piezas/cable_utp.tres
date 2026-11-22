@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/cable_utp.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"cable_utp"
+nombre = "Cable UTP (cat. 5e)"
+nombre_corto = "UTP"
+necesaria = true
+funcion = "Lleva la red por 4 pares trenzados de cobre."
+pista = "El cable UTP es el que se poncha con los conectores y la crimpadora."
+capsula = "«El UTP tiene 4 pares trenzados de cobre; el coaxial tiene un solo conductor central.»"
+donde = "Escuela, depósito"
+paso = &"ponchar"
+color = Color(0.2, 0.45, 0.85, 1)
+icono = ExtResource("2_icono")

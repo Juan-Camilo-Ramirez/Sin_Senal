@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/conectores_rj45.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"conectores_rj45"
+nombre = "Conectores RJ45"
+nombre_corto = "RJ45"
+necesaria = true
+funcion = "Conectores de 8 pines para cable de red."
+pista = "Los conectores RJ45 van en las puntas del cable UTP cuando se poncha."
+capsula = "«El RJ45 es más ancho y tiene 8 pines; el RJ11 es de teléfono y tiene menos.»"
+donde = "Tienda (mostrador)"
+paso = &"ponchar"
+color = Color(0.85, 0.85, 0.9, 1)
+icono = ExtResource("2_icono")

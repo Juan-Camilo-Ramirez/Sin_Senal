@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Player/player.gd" id="1_player"]
+[ext_resource type="SpriteFrames" path="res://PackPlayerTecnico/tecnico_frames.tres" id="2_frames"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cuerpo"]
+size = Vector2(10, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_interactor"]
+size = Vector2(8, 8)
+
+[node name="Player" type="CharacterBody2D"]
+z_index = 3
+motion_mode = 1
+script = ExtResource("1_player")
+
+[node name="Forma" type="CollisionShape2D" parent="."]
+position = Vector2(0, 3)
+shape = SubResource("RectangleShape2D_cuerpo")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -6)
+sprite_frames = ExtResource("2_frames")
+animation = &"quieto_abajo"
+
+[node name="Interactor" type="Area2D" parent="."]
+position = Vector2(0, 10)
+monitorable = false
+
+[node name="Forma" type="CollisionShape2D" parent="Interactor"]
+shape = SubResource("RectangleShape2D_interactor")

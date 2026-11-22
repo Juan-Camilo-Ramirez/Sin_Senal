@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/punto_acceso.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"punto_acceso"
+nombre = "Punto de acceso"
+nombre_corto = "P.Acc."
+necesaria = true
+funcion = "Crea la red wifi y se conecta por cable a la red."
+pista = "El punto de acceso se conecta al final, cuando el cable ya está ponchado y probado."
+capsula = "«El punto de acceso crea la red wifi y se conecta por cable a la red.»"
+donde = "Escuela, oficina del rector"
+paso = &"punto_acceso"
+color = Color(0.55, 0.9, 0.55, 1)
+icono = ExtResource("2_icono")

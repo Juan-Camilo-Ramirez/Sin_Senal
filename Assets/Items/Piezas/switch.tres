@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/switch.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"switch"
+nombre = "Switch"
+nombre_corto = "Switch"
+necesaria = true
+funcion = "Reparte la conexión entre varios equipos de una misma red."
+pista = "El switch va en su propio lugar de la mesa: desde ahí reparte la red a los computadores del aula."
+capsula = "«El switch reparte la conexión entre varios equipos de una misma red.»"
+donde = "Escuela, depósito"
+paso = &"switch"
+color = Color(0.3, 0.6, 0.95, 1)
+icono = ExtResource("2_icono")

@@ -1,0 +1,43 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/UI/sintomas.gd" id="1_sintomas"]
+
+[node name="Sintomas" type="CanvasLayer"]
+layer = 40
+script = ExtResource("1_sintomas")
+
+[node name="Fondo" type="ColorRect" parent="."]
+offset_right = 256.0
+offset_bottom = 240.0
+color = Color(0, 0, 0, 0.6)
+
+[node name="Panel" type="Panel" parent="Fondo"]
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 248.0
+offset_bottom = 232.0
+
+[node name="Titulo" type="Label" parent="Fondo/Panel"]
+offset_left = 8.0
+offset_top = 4.0
+offset_right = 232.0
+offset_bottom = 16.0
+theme_override_colors/font_color = Color(1, 0.55, 0.45, 1)
+text = "Lista de síntomas"
+
+[node name="Texto" type="Label" parent="Fondo/Panel"]
+offset_left = 8.0
+offset_top = 20.0
+offset_right = 232.0
+offset_bottom = 206.0
+text = "..."
+autowrap_mode = 3
+
+[node name="Cerrar" type="Label" parent="Fondo/Panel"]
+offset_left = 120.0
+offset_top = 208.0
+offset_right = 232.0
+offset_bottom = 220.0
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+text = "[Tab] cerrar"
+horizontal_alignment = 2

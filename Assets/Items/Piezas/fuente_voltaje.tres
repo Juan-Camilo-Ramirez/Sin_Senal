@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/fuente_voltaje.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"fuente_voltaje"
+nombre = "Fuente de voltaje equivocado"
+nombre_corto = "Fuente"
+necesaria = false
+funcion = "Alimenta equipos, pero un voltaje distinto al del router puede quemarlo."
+pista = "El router no necesita otra fuente: pide en el taller algo que lo proteja de picos de voltaje."
+capsula = ""
+donde = "Tienda"
+paso = &""
+color = Color(0.4, 0.4, 0.45, 1)
+icono = ExtResource("2_icono")

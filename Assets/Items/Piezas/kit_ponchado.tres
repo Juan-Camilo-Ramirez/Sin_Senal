@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/kit_ponchado.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"kit_ponchado"
+nombre = "Kit de ponchado (crimpadora y probador de cables)"
+nombre_corto = "Kit"
+necesaria = true
+funcion = "La crimpadora fija el conector al cable; el probador confirma cada hilo."
+pista = "El kit se usa para ponchar el cable con los conectores y luego para probarlo."
+capsula = "«La crimpadora fija el conector al cable; el probador confirma que cada hilo hace contacto.»"
+donde = "Casa de la junta"
+paso = &"ponchar"
+color = Color(0.8, 0.35, 0.35, 1)
+icono = ExtResource("2_icono")

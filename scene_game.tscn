@@ -1,0 +1,38 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/scene_game.gd" id="1_game"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/HUD.tscn" id="2_hud"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/Dialogo.tscn" id="3_dialogo"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/Mostrador.tscn" id="4_mostrador"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/MesaInstalacion.tscn" id="5_mesa"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/Capsula.tscn" id="6_capsula"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/Sintomas.tscn" id="7_sintomas"]
+[ext_resource type="PackedScene" path="res://Scenes/UI/Resumen.tscn" id="8_resumen"]
+
+[node name="SceneGame" type="Node"]
+script = ExtResource("1_game")
+
+[node name="Mundo" type="Node2D" parent="."]
+
+[node name="HUD" parent="." instance=ExtResource("2_hud")]
+
+[node name="Dialogo" parent="." instance=ExtResource("3_dialogo")]
+
+[node name="Mostrador" parent="." instance=ExtResource("4_mostrador")]
+
+[node name="MesaInstalacion" parent="." instance=ExtResource("5_mesa")]
+
+[node name="Capsula" parent="." instance=ExtResource("6_capsula")]
+
+[node name="Sintomas" parent="." instance=ExtResource("7_sintomas")]
+
+[node name="Resumen" parent="." instance=ExtResource("8_resumen")]
+
+[node name="Fundido" type="CanvasLayer" parent="."]
+layer = 50
+
+[node name="Negro" type="ColorRect" parent="Fundido"]
+offset_right = 256.0
+offset_bottom = 240.0
+mouse_filter = 2
+color = Color(0, 0, 0, 1)

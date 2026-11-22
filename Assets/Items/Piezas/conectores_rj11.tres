@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/conectores_rj11.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"conectores_rj11"
+nombre = "Conectores RJ11"
+nombre_corto = "RJ11"
+necesaria = false
+funcion = "Son de teléfono y no encajan en un puerto de red."
+pista = "Pregunta por los conectores de 8 pines."
+capsula = ""
+donde = "Tienda"
+paso = &""
+color = Color(0.9, 0.9, 0.75, 1)
+icono = ExtResource("2_icono")

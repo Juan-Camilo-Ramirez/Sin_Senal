@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/regulador.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"regulador"
+nombre = "Regulador de voltaje"
+nombre_corto = "Regul."
+necesaria = true
+funcion = "Protege los equipos de picos de voltaje."
+pista = "El regulador se conecta al router: es lo que lo protege de los picos de voltaje."
+capsula = "«Un regulador protege los equipos de picos de voltaje. Un multitoma solo reparte la corriente.»"
+donde = "Taller de electricidad (mostrador)"
+paso = &"regulador"
+color = Color(0.95, 0.75, 0.2, 1)
+icono = ExtResource("2_icono")

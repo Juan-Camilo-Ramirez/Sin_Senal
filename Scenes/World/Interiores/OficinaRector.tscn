@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/World/oficina_rector.gd" id="1_mapa"]
+[ext_resource type="PackedScene" path="res://Scenes/Player/Player.tscn" id="2_player"]
+
+[node name="OficinaRector" type="Node2D"]
+script = ExtResource("1_mapa")
+
+[node name="Suelo" type="TileMapLayer" parent="."]
+
+[node name="Entidades" type="Node2D" parent="."]
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+
+[node name="Camara" type="Camera2D" parent="."]
+anchor_mode = 0
+position_smoothing_enabled = true
+position_smoothing_speed = 7.0

@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://Scripts/UI/inventario.gd" id="1_inv"]
+
+[node name="Inventario" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 166.0
+offset_bottom = 50.0
+mouse_filter = 2
+script = ExtResource("1_inv")
+
+[node name="Titulo" type="Label" parent="."]
+layout_mode = 0
+offset_right = 166.0
+offset_bottom = 12.0
+text = "Inventario 0/6"
+
+[node name="Casillas" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_top = 13.0
+offset_right = 166.0
+offset_bottom = 47.0
+theme_override_constants/separation = 2

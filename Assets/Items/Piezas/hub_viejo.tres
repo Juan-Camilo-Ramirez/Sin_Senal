@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="PiezaData" load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Systems/pieza_data.gd" id="1_pieza"]
+[ext_resource type="Texture2D" path="res://Assets/Items/Iconos/hub_viejo.png" id="2_icono"]
+
+[resource]
+script = ExtResource("1_pieza")
+id = &"hub_viejo"
+nombre = "Hub viejo"
+nombre_corto = "Hub"
+necesaria = false
+funcion = "Repite el tráfico a todos los puertos y satura la red."
+pista = "En la misma estantería hay un equipo que envía el tráfico solo a quien corresponde: un switch."
+capsula = ""
+donde = "Escuela, depósito"
+paso = &""
+color = Color(0.55, 0.5, 0.4, 1)
+icono = ExtResource("2_icono")
