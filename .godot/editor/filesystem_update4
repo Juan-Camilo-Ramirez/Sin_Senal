@@ -2,3 +2,4 @@ res://Assets/UI/tema.tres
 res://PackPlayerTecnico/tecnico_frames.tres
 res://Scenes/UI/sound.tscn
 res://export_presets.cfg
+res://Scripts/UI/sound.gd
