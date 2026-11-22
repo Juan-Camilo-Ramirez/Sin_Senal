@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://bejvhfrft2rp3"]
 
 [ext_resource type="AudioStream" uid="uid://jdolhmyjbniy" path="res://Assets/Audio/Music/game_sound.ogg" id="1_jqrb1"]
+[ext_resource type="Script" uid="uid://bd47r3urahn1p" path="res://Scripts/Systems/sound.gd" id="2_r33bk"]
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" unique_id=1183656118]
 stream = ExtResource("1_jqrb1")
-autoplay = true
 playback_type = 1
-parameters/looping = true
+script = ExtResource("2_r33bk")

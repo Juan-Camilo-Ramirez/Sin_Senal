@@ -3,3 +3,4 @@ res://PackPlayerTecnico/tecnico_frames.tres
 res://Scenes/UI/sound.tscn
 res://export_presets.cfg
 res://Scripts/UI/sound.gd
+res://Scripts/Systems/sound.gd
