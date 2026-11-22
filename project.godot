@@ -28,7 +28,7 @@ general/default_playback_type.web=0
 [autoload]
 
 GameState="*res://Scripts/Systems/game_state.gd"
-Sound="*uid://bejvhfrft2rp3"
+Sound="*uid://bd47r3urahn1p"
 
 [display]
 
