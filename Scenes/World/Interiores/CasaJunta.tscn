@@ -1,18 +1,21 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene format=3 uid="uid://byj2mgif6gjr8"]
 
-[ext_resource type="Script" path="res://Scripts/World/casa_junta.gd" id="1_mapa"]
+[ext_resource type="Script" uid="uid://dds21vwjv1lrb" path="res://Scripts/World/casa_junta.gd" id="1_mapa"]
 [ext_resource type="PackedScene" path="res://Scenes/Player/Player.tscn" id="2_player"]
+[ext_resource type="PackedScene" uid="uid://bejvhfrft2rp3" path="res://Scenes/UI/sound.tscn" id="3_jdi6u"]
 
-[node name="CasaJunta" type="Node2D"]
+[node name="CasaJunta" type="Node2D" unique_id=1231515126]
 script = ExtResource("1_mapa")
 
-[node name="Suelo" type="TileMapLayer" parent="."]
+[node name="Suelo" type="TileMapLayer" parent="." unique_id=1663110888]
 
-[node name="Entidades" type="Node2D" parent="."]
+[node name="Entidades" type="Node2D" parent="." unique_id=516853900]
 
-[node name="Player" parent="." instance=ExtResource("2_player")]
+[node name="Player" parent="." unique_id=1635072227 instance=ExtResource("2_player")]
 
-[node name="Camara" type="Camera2D" parent="."]
+[node name="Camara" type="Camera2D" parent="." unique_id=1058088984]
 anchor_mode = 0
 position_smoothing_enabled = true
 position_smoothing_speed = 7.0
+
+[node name="AudioStreamPlayer2D" parent="." unique_id=1183656118 instance=ExtResource("3_jdi6u")]

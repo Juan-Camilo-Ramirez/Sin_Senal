@@ -4,3 +4,10 @@ res://Scenes/UI/sound.tscn
 res://export_presets.cfg
 res://Scripts/UI/sound.gd
 res://Scripts/Systems/sound.gd
+res://Scenes/World/Interiores/CasaJunta.tscn
+res://Scenes/World/Interiores/Deposito.tscn
+res://Scenes/World/Interiores/Escuela.tscn
+res://Scenes/World/Interiores/Taller.tscn
+res://Scenes/World/Interiores/Tienda.tscn
+res://Scenes/World/Interiores/OficinaRector.tscn
+res://scene_game.tscn

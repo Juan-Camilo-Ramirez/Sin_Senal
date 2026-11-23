@@ -1,18 +1,21 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene format=3 uid="uid://dkoqavatxo6md"]
 
-[ext_resource type="Script" path="res://Scripts/World/tienda.gd" id="1_mapa"]
+[ext_resource type="Script" uid="uid://cglf2jwx6v67u" path="res://Scripts/World/tienda.gd" id="1_mapa"]
 [ext_resource type="PackedScene" path="res://Scenes/Player/Player.tscn" id="2_player"]
+[ext_resource type="PackedScene" uid="uid://bejvhfrft2rp3" path="res://Scenes/UI/sound.tscn" id="3_eiqsj"]
 
-[node name="Tienda" type="Node2D"]
+[node name="Tienda" type="Node2D" unique_id=1802045286]
 script = ExtResource("1_mapa")
 
-[node name="Suelo" type="TileMapLayer" parent="."]
+[node name="Suelo" type="TileMapLayer" parent="." unique_id=1904596792]
 
-[node name="Entidades" type="Node2D" parent="."]
+[node name="Entidades" type="Node2D" parent="." unique_id=1474268669]
 
-[node name="Player" parent="." instance=ExtResource("2_player")]
+[node name="Player" parent="." unique_id=1189415586 instance=ExtResource("2_player")]
 
-[node name="Camara" type="Camera2D" parent="."]
+[node name="Camara" type="Camera2D" parent="." unique_id=217191901]
 anchor_mode = 0
 position_smoothing_enabled = true
 position_smoothing_speed = 7.0
+
+[node name="AudioStreamPlayer2D" parent="." unique_id=1183656118 instance=ExtResource("3_eiqsj")]

@@ -1,6 +1,6 @@
-[gd_scene load_steps=9 format=3]
+[gd_scene format=3 uid="uid://b5s2ybcl7lnut"]
 
-[ext_resource type="Script" path="res://Scripts/Systems/scene_game.gd" id="1_game"]
+[ext_resource type="Script" uid="uid://b1a0n80s1pf61" path="res://Scripts/Systems/scene_game.gd" id="1_game"]
 [ext_resource type="PackedScene" path="res://Scenes/UI/HUD.tscn" id="2_hud"]
 [ext_resource type="PackedScene" path="res://Scenes/UI/Dialogo.tscn" id="3_dialogo"]
 [ext_resource type="PackedScene" path="res://Scenes/UI/Mostrador.tscn" id="4_mostrador"]
@@ -8,31 +8,34 @@
 [ext_resource type="PackedScene" path="res://Scenes/UI/Capsula.tscn" id="6_capsula"]
 [ext_resource type="PackedScene" path="res://Scenes/UI/Sintomas.tscn" id="7_sintomas"]
 [ext_resource type="PackedScene" path="res://Scenes/UI/Resumen.tscn" id="8_resumen"]
+[ext_resource type="PackedScene" uid="uid://bejvhfrft2rp3" path="res://Scenes/UI/sound.tscn" id="9_lb88t"]
 
-[node name="SceneGame" type="Node"]
+[node name="SceneGame" type="Node" unique_id=1721674512]
 script = ExtResource("1_game")
 
-[node name="Mundo" type="Node2D" parent="."]
+[node name="Mundo" type="Node2D" parent="." unique_id=894122336]
 
-[node name="HUD" parent="." instance=ExtResource("2_hud")]
+[node name="HUD" parent="." unique_id=1886871820 instance=ExtResource("2_hud")]
 
-[node name="Dialogo" parent="." instance=ExtResource("3_dialogo")]
+[node name="Dialogo" parent="." unique_id=119048790 instance=ExtResource("3_dialogo")]
 
-[node name="Mostrador" parent="." instance=ExtResource("4_mostrador")]
+[node name="Mostrador" parent="." unique_id=888827572 instance=ExtResource("4_mostrador")]
 
-[node name="MesaInstalacion" parent="." instance=ExtResource("5_mesa")]
+[node name="MesaInstalacion" parent="." unique_id=1619398367 instance=ExtResource("5_mesa")]
 
-[node name="Capsula" parent="." instance=ExtResource("6_capsula")]
+[node name="Capsula" parent="." unique_id=2005624856 instance=ExtResource("6_capsula")]
 
-[node name="Sintomas" parent="." instance=ExtResource("7_sintomas")]
+[node name="Sintomas" parent="." unique_id=1321136315 instance=ExtResource("7_sintomas")]
 
-[node name="Resumen" parent="." instance=ExtResource("8_resumen")]
+[node name="Resumen" parent="." unique_id=801542697 instance=ExtResource("8_resumen")]
 
-[node name="Fundido" type="CanvasLayer" parent="."]
+[node name="Fundido" type="CanvasLayer" parent="." unique_id=527173156]
 layer = 50
 
-[node name="Negro" type="ColorRect" parent="Fundido"]
+[node name="Negro" type="ColorRect" parent="Fundido" unique_id=695926172]
 offset_right = 256.0
 offset_bottom = 240.0
 mouse_filter = 2
 color = Color(0, 0, 0, 1)
+
+[node name="AudioStreamPlayer2D" parent="." unique_id=1183656118 instance=ExtResource("9_lb88t")]
