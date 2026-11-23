@@ -1,12 +1,14 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1795325740
+::res://::1795326364
 export_presets.cfg::TextFile::-1::1795320794::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::4540572826642516902::1795319463::1795319492::1::::<><><>0<>0<>d8978d5a5bf9e6c7f00d2e3c3e49307d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 scene_game.tscn::PackedScene::-1::1795319463::0::1::::<><><>0<>0<><>::res://Scripts/Systems/scene_game.gd<>res://Scenes/UI/HUD.tscn<>res://Scenes/UI/Dialogo.tscn<>res://Scenes/UI/Mostrador.tscn<>res://Scenes/UI/MesaInstalacion.tscn<>res://Scenes/UI/Capsula.tscn<>res://Scenes/UI/Sintomas.tscn<>res://Scenes/UI/Resumen.tscn
 ::res://Assets/::1795319465
 ::res://Assets/Audio/::1795319464
-::res://Assets/Audio/Music/::1795325718
+::res://Assets/Audio/Music/::1795472436
 game_sound.ogg::AudioStreamOggVorbis::638762794939790964::1794168975::1795326333::1::::<><><>0<>0<>8309e0da293bcee8cf31890aa6f3aa9e<>res://.godot/imported/game_sound.ogg-b137fb3d5f1f6f48811ab7572374b3b3.oggvorbisstr::
+game_sound_1_3h30.ogg::AudioStreamOggVorbis::2653702728365344824::1795471383::1795471410::1::::<><><>0<>0<>1389907ed2c9852e501bcaafc204a887<>res://.godot/imported/game_sound_1_3h30.ogg-cde861e2945a04be4674bfd10395d340.oggvorbisstr::
+game_sound_1_3h30_ligero.ogg::AudioStreamOggVorbis::5580379104899971207::1795472382::1795472439::1::::<><><>0<>0<>5af95326b41a413aadd2894fd47a2b38<>res://.godot/imported/game_sound_1_3h30_ligero.ogg-2ae5f19ab878440871e10b47ba5f3ded.oggvorbisstr::
 ::res://Assets/Audio/SFX/::1795319464
 ::res://Assets/Characters/::1795319492
 personajes.png::CompressedTexture2D::2439359244083144643::1795319465::1795319492::1::::<><><>0<>0<>eba7dc9e50e3d52d77e18ddc3a63906d<>res://.godot/imported/personajes.png-44e75050afef7d3194c8b2ea64c481a0.ctex::
@@ -71,7 +73,7 @@ NPC.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/NPC
 Player.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/Player/player.gd<>res://PackPlayerTecnico/tecnico_frames.tres
 ::res://Scenes/Test/::1795319464
 Test.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/test.gd
-::res://Scenes/UI/::1795325890
+::res://Scenes/UI/::1795471496
 Capsula.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/capsula.gd
 Dialogo.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/dialogo.gd
 HUD.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/hud.gd<>res://Scenes/UI/Inventario.tscn
@@ -79,7 +81,7 @@ Inventario.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scri
 MenuInicio.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/menu_inicio.gd<>res://Assets/Maps/pueblo.png<>res://PackPlayerTecnico/tecnico_frames.tres
 MesaInstalacion.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/mesa_instalacion.gd
 Mostrador.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/mostrador.gd
-sound.tscn::PackedScene::2687043304569273286::1795325890::0::1::::<><><>0<>0<><>::uid://jdolhmyjbniy::::res://Assets/Audio/Music/game_sound.ogg<>uid://bd47r3urahn1p::::res://Scripts/Systems/sound.gd
+sound.tscn::PackedScene::2687043304569273286::1795471496::0::1::::<><><>0<>0<><>::uid://bd2qdjibn4rtw::::res://Assets/Audio/Music/game_sound_1_3h30.ogg<>uid://bd47r3urahn1p::::res://Scripts/Systems/sound.gd
 Resumen.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/resumen.gd
 Sintomas.tscn::PackedScene::-1::1795319464::0::1::::<><><>0<>0<><>::res://Scripts/UI/sintomas.gd
 ::res://Scenes/World/::1795319464
